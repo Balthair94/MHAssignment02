@@ -10,8 +10,8 @@
 	cursor: pointer;
 }
 
-.figure-background{
-	height: 700px;
+.div-background{
+	height: 800px;
 	position: relative;
 }
 
@@ -19,20 +19,60 @@
   width: 100%;
   height: 100%;
   padding-top: 50px;
-  /*filter: blur(5px);*/
   position: absolute;
-  top: 1px;
-  left: -2px;
-  border-style: solid;
-  border-width: 2px;
 }
 
 .home-content{
 	position: relative;
 	margin: 0 auto;
-	top: 50%;
+	top: 26%;
 }
 
+.profile-image{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	display: block;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.paragraph-text{
+	font-size: 12px;
+}
+
+.div-me{
+	width: 900px;
+	margin: 0 auto; /*It center the content*/
+	background-color: #333;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.para-best-skill{
+	font-size: 15px;
+}
+
+.my-best {
+	width: 250px;
+	height: 250px;
+}
+
+#mySkills{
+	background-color: #333;
+}
+
+.text-white{
+	color: white;
+}
+
+.container-center{
+	margin: 0 auto;
+    text-align: center;
+}
 
 
 /*header div#back{
